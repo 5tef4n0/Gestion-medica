@@ -1,0 +1,2 @@
+DOC01;Pepe Perez;Traumatologo;32;12:00;18:00;1
+DOC02;Luis Lopez;Medico;34;09:00;02:00;1
