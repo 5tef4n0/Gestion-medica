@@ -21,11 +21,19 @@ void cargarMedicos(Medico medicos[], int *cantidad) {
 	char linea[256];
 	while (fgets(linea, sizeof(linea), fp)) {
 		if (*cantidad >= MAX_MEDICOS) break;
+		
 		Medico m;
-		int leidos = sscanf(linea, "%[^;];%[^;];%[^;];%d;%[^;];%[^;];%d",
-							m.codigo, m.nombre, m.especialidad, 
-							&m.edad, m.horario_inicio, m.horario_fin, &m.activo);
-		if (leidos == 7) {
+		int leidos = sscanf(linea, "%[^;];%[^;];%[^;];%[^;];%d;%[^;];%[^;];%d",
+							m.codigo,
+							m.cedula, 
+							m.nombre,
+							m.especialidad, 
+							&m.edad, 
+							m.horario_inicio, 
+							m.horario_fin, 
+							&m.activo);
+		
+		if (leidos == 8) {
 			medicos[*cantidad] = m;
 			(*cantidad)++;
 		}
@@ -36,15 +44,20 @@ void cargarMedicos(Medico medicos[], int *cantidad) {
 void guardarMedicos(const Medico medicos[], int cantidad) {
 	FILE *fp = fopen(ARCHIVO_MEDICOS, "w");
 	if (!fp) return;
+	
 	for (int i = 0; i < cantidad; i++) {
-		fprintf(fp, "%s;%s;%s;%d;%s;%s;%d\n",
-				medicos[i].codigo, medicos[i].nombre, medicos[i].especialidad,
-				medicos[i].edad, medicos[i].horario_inicio, medicos[i].horario_fin,
+		fprintf(fp, "%s;%s;%s;%s;%d;%s;%s;%d\n",
+				medicos[i].codigo,
+				medicos[i].cedula, 
+				medicos[i].nombre,
+				medicos[i].especialidad,
+				medicos[i].edad,
+				medicos[i].horario_inicio,
+				medicos[i].horario_fin,
 				medicos[i].activo);
 	}
 	fclose(fp);
 }
-
 void inicializarMedicos(Medico medicos[], int *cantidad) { *cantidad = 0; }
 
 void registrarMedico(Medico medicos[], int *cantidad) {
@@ -58,8 +71,9 @@ void registrarMedico(Medico medicos[], int *cantidad) {
 	
 	dibujarEncabezado("REGISTRAR NUEVO MEDICO");
 	
-	// 1.Perfil
 	printf(NEGRITA "   Perfil Profesional:\n" COLOR_RESET);
+	
+	// 1. CODIGO 
 	do {
 		printf("   > Codigo Unico (Ej: DOC01): ");
 		leerCadena(m.codigo, 10);
@@ -71,9 +85,18 @@ void registrarMedico(Medico medicos[], int *cantidad) {
 		}
 	} while (strlen(m.codigo) == 0);
 	
+	// 2. CEDULA
+	do {
+		printf("   > Cedula Personal: ");
+		leerCadena(m.cedula, 11);
+		if (!esCedulaValida(m.cedula)) imprimirError("Cedula invalida.");
+	} while (!esCedulaValida(m.cedula));
+	
+	// 3. NOMBRE
 	printf("   > Nombre Completo: ");
 	leerCadena(m.nombre, MAX_STR);
 	
+	// 4. ESPECIALIDAD
 	do {
 		printf("   > Especialidad: ");
 		leerCadena(m.especialidad, MAX_STR);
@@ -82,7 +105,7 @@ void registrarMedico(Medico medicos[], int *cantidad) {
 	
 	m.edad = leerEntero("   > Edad: ");
 	
-	// 2.Horarios
+	// 5. HORARIOS
 	printf("\n" NEGRITA "   Configuracion de Horario:\n" COLOR_RESET);
 	do {
 		printf("   > Hora Inicio (HH:MM): ");

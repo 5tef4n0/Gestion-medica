@@ -15,15 +15,13 @@
 #define ARCHIVO_PACIENTES "data/pacientes.txt"
 #define ARCHIVO_MEDICOS "data/medicos.txt"
 #define ARCHIVO_CITAS "data/citas.txt"
-
 #define ARCHIVO_USUARIOS "data/usuarios.txt"
+
 
 // Roles
 #define ROL_ADMIN 1
 #define ROL_MEDICO 2
 #define ROL_PACIENTE 3
 
-#define ARCHIVO_PACIENTES "data/pacientes.txt"
-#define ARCHIVO_MEDICOS "data/medicos.txt"
 
 #endif

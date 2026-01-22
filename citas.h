@@ -30,7 +30,7 @@ void agendarCita(Cita citas[], int *n_citas,
 
 void cancelarCita(Cita citas[], int n_citas, int rol, char* usuarioActual);
 void registrarAusencia(Cita citas[], int n_citas, int rol, char* usuarioActual);
-
+void reagendarCita(Cita citas[], int n_citas, const Medico medicos[], int n_medicos, int rol, char* usuarioActual);
 void verCitasDeMedico(const Cita citas[], int n_citas, char* codigoMedico);
 void listarCitas(const Cita citas[], int n_citas);
 

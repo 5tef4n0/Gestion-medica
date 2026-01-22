@@ -210,15 +210,18 @@ void menuGestionCitas(int rol, char* usuario) {
 		printf(COLOR_VERDE "   [1]" COLOR_RESET " Agendar Nueva Cita\n");
 		
 		if (rol == ROL_MEDICO) 
-			printf(COLOR_VERDE "   [2]" COLOR_RESET " Ver Agenda\n");
+			printf(COLOR_VERDE "   [2]" COLOR_RESET " Ver MI Agenda\n");
 		else 
 			printf(COLOR_VERDE "   [2]" COLOR_RESET " Ver Historial General\n");
 		
+		// NUEVA OPCIÓN
+		printf(COLOR_AMARILLO "   [3]" COLOR_RESET " Reagendar Cita (Cambiar Fecha/Hora)\n");
+		
 		if (rol == ROL_PACIENTE || rol == ROL_ADMIN)
-			printf(COLOR_AMARILLO "   [3]" COLOR_RESET " Cancelar Cita\n");
+			printf(COLOR_AMARILLO "   [4]" COLOR_RESET " Cancelar Cita\n");
 		
 		if (rol == ROL_MEDICO)
-			printf(COLOR_ROJO     "   [4]" COLOR_RESET " Reportar Ausencia\n");
+			printf(COLOR_ROJO     "   [5]" COLOR_RESET " Reportar Ausencia\n");
 		
 		printf(COLOR_ROJO  "   [0]" COLOR_RESET " Volver\n");
 		imprimirLinea(60);
@@ -228,14 +231,18 @@ void menuGestionCitas(int rol, char* usuario) {
 			agendarCita(g_citas, &n_citas, g_pacientes, n_pacientes, g_medicos, n_medicos, rol, usuario);
 		}
 		else if (op == 2) {
-			if (rol == ROL_MEDICO) verCitasDeMedico(g_citas, n_citas, codigoReal); 
+			if (rol == ROL_MEDICO) verCitasDeMedico(g_citas, n_citas, codigoReal);
 			else listarCitas(g_citas, n_citas);
 		}
-		else if (op == 3 && (rol == ROL_PACIENTE || rol == ROL_ADMIN)) {
+		else if (op == 3) {
+			// Llamada a la nueva función de reagendar
+			reagendarCita(g_citas, n_citas, g_medicos, n_medicos, rol, usuario);
+		}
+		else if (op == 4 && (rol == ROL_PACIENTE || rol == ROL_ADMIN)) {
 			cancelarCita(g_citas, n_citas, rol, usuario);
 		}
-		else if (op == 4 && rol == ROL_MEDICO) {
-			registrarAusencia(g_citas, n_citas, rol, codigoReal); 
+		else if (op == 5 && rol == ROL_MEDICO) {
+			registrarAusencia(g_citas, n_citas, rol, codigoReal);
 		}
 		else if (op != 0) { imprimirError("Invalido"); pausar(); }
 	}
