@@ -58,4 +58,3 @@ gcc *.c -o gestion
 
 ⚠️ Importante: El sistema requiere que exista una carpeta llamada data/ en el mismo directorio donde se ejecuta. Si compilas el código desde cero, asegúrate de crear esta carpeta para que las bases de datos puedan guardarse correctamente.
 
-📸 Evidencia
