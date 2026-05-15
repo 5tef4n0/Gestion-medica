@@ -1,0 +1,365 @@
+1;1234567890;DOC001;10/01/2026;08:00;2;72.50;80;120/80;Fuerte dolor en el pecho y fatiga;Posible arritmia, solicito electrocardiograma urgente
+2;2345678901;DOC002;11/01/2026;09:00;2;65.00;75;110/70;Mareos al levantarse;Hipotension ortostatica, receto hidratacion y reposo
+3;3456789012;DOC003;12/01/2026;10:00;2;80.20;85;135/85;Palpitaciones en la noche;Taquicardia leve, receto Bisoprolol 5mg
+4;4567890123;DOC004;13/01/2026;11:00;2;55.50;70;115/75;Falta de aire al caminar;Chequeo cardiovascular, todo en orden
+5;5678901234;DOC005;14/01/2026;08:00;2;90.00;90;140/90;Dolor agudo en el brazo izquierdo;Hipertension, receto Losartan 50mg
+6;6789012345;DOC006;15/01/2026;09:00;2;60.00;72;120/80;Revision anual de rutina;Paciente sano, continuar con buena dieta
+7;7890123456;DOC007;16/01/2026;10:00;2;77.00;78;125/80;Cansancio extremo;Anemia leve, receto suplementos de hierro
+8;8901234567;DOC008;17/01/2026;11:00;2;85.50;82;130/85;Presion alta en las mananas;Ajuste de dosis de Enalapril a 20mg
+9;9012345678;DOC009;18/01/2026;08:00;2;71.00;75;120/80;Dolor en la boca del estomago;Gastritis aguda, receto Omeprazol 20mg
+10;1122334455;DOC010;19/01/2026;09:00;2;68.50;80;118/78;Control de trigliceridos;Niveles altos, receto Atorvastatina 20mg
+11;2233445566;DOC011;20/01/2026;10:00;2;15.00;100;90/60;Fiebre de 39 grados y tos seca;Infeccion viral, receto Paracetamol pediatrico
+12;3344556677;DOC012;21/01/2026;11:00;2;12.50;95;95/65;Manchas rojas en la piel;Varicela, reposo absoluto por 10 dias
+13;4455667788;DOC013;22/01/2026;08:00;2;18.00;90;100/70;Dolor de garganta y dificultad al tragar;Faringitis estreptococica, Amoxicilina
+14;5566778899;DOC014;23/01/2026;09:00;2;22.00;85;105/70;Vomito y diarrea severa;Gastroenteritis, suero oral y dieta blanda
+15;6677889900;DOC015;24/01/2026;10:00;2;25.50;88;110/75;Asma, dificultad respiratoria;Crisis asmatica, inhalador Salbutamol
+16;7788990011;DOC016;25/01/2026;11:00;2;14.00;92;90/60;Dolor de oido fuerte;Otitis media, receto gotas antibioticas
+17;8899001122;DOC017;26/01/2026;08:00;2;20.00;85;100/65;Golpe en la cabeza por caida;Traumatismo leve, observacion por 24 horas
+18;9900112233;DOC018;27/01/2026;09:00;2;16.50;98;95/60;Lloro constante y fiebre baja;Denticion, mordedor frio y Paracetamol
+19;1011121314;DOC019;28/01/2026;10:00;2;30.00;80;110/70;Control de crecimiento y desarrollo;Percentiles normales, nino muy sano
+20;1213141516;DOC020;29/01/2026;11:00;2;10.50;105;85/55;Alergia alimentaria a los mariscos;Reaccion alergica, receto Loratadina jarabe
+21;1314151617;DOC021;01/02/2026;08:00;2;74.00;76;120/80;Dolor de cabeza intenso y punzante;Migrana tensional, receto Ibuprofeno 600mg
+22;1415161718;DOC022;02/02/2026;09:00;2;62.50;72;118/76;Tos con flema de mas de una semana;Bronquitis aguda, receto Ambroxol
+23;1516171819;DOC023;03/02/2026;10:00;2;85.00;82;125/82;Ardor al orinar;Infeccion urinaria, Ciprofloxacino 500mg
+24;1617181920;DOC024;04/02/2026;11:00;2;58.00;68;110/70;Mareos y zumbido en los oidos;Vertigo, receto Betahistina 16mg
+25;1718192021;DOC025;05/02/2026;08:00;2;92.50;88;135/88;Dolor en la espalda baja;Lumbalgia, inyeccion de Diclofenaco
+26;1819202122;DOC026;06/02/2026;09:00;2;66.00;74;120/80;Fiebre y dolor articular;Cuadro gripal fuerte, Paracetamol y reposo
+27;1920212223;DOC027;07/02/2026;10:00;2;79.00;78;122/80;Colicos muy fuertes en el abdomen;Calculos biliares, derivo a ecografia
+28;2021222324;DOC028;08/02/2026;11:00;2;55.00;70;115/75;Chequeo para certificado medico;Apto para trabajo, salud excelente
+29;2122232425;DOC029;09/02/2026;08:00;2;88.00;84;130/85;Acidez y reflujo constante;Reflujo gastroesofagico, Pantoprazol
+30;2223242526;DOC030;10/02/2026;09:00;2;63.50;75;120/80;Insomnio y estres laboral;Fatiga cronica, receto relajantes musculares
+31;2324252627;DOC031;11/02/2026;10:00;2;76.00;78;125/80;Dolor fuerte en la rodilla derecha al subir gradas;Posible desgarro de menisco, solicito resonancia magnetica
+32;2425262728;DOC032;12/02/2026;11:00;2;60.00;70;115/75;Esguince de tobillo jugando futbol;Esguince grado 2, inmovilizacion y hielo
+33;2526272829;DOC033;13/02/2026;08:00;2;82.50;80;130/85;Dolor en el hombro derecho;Tendinitis del manguito rotador, fisioterapia
+34;2627282930;DOC034;14/02/2026;09:00;2;58.00;72;120/80;Golpe fuerte en la muneca;Contusion simple, vendaje por 3 dias
+35;2728293031;DOC035;15/02/2026;10:00;2;95.00;85;135/90;Dolor en la planta del pie al despertar;Fascitis plantar, plantillas ortopedicas
+36;2829303132;DOC036;16/02/2026;11:00;2;64.00;76;118/78;Dolor en el cuello por mala postura;Contractura cervical, masajes y calor local
+37;2930313233;DOC037;17/02/2026;08:00;2;78.00;80;125/80;Recuperacion de fractura de tibia;Hueso soldando correctamente, retirar yeso en 1 semana
+38;3031323334;DOC038;18/02/2026;09:00;2;55.50;68;110/70;Dolor en las articulaciones de las manos;Artritis leve, receto antiinflamatorios no esteroideos
+39;3132333435;DOC039;19/02/2026;10:00;2;88.50;82;130/85;Dolor en la cadera que baja a la pierna;Ciatalgia, receto complejo B y reposo
+40;3233343536;DOC040;20/02/2026;11:00;2;62.00;74;120/80;Codo inflamado por jugar tenis;Epicondilitis, suspender actividad fisica por 2 semanas
+41;3334353637;DOC041;21/02/2026;08:00;2;70.50;75;120/80;Fuertes dolores de cabeza con aura visual;Migrana con aura, receto Sumatriptan 50mg
+42;3435363738;DOC042;22/02/2026;09:00;2;59.00;70;115/75;Temblores en las manos al agarrar objetos;Temblor esencial, iniciar dosis baja de Propranolol
+43;3536373839;DOC043;23/02/2026;10:00;2;85.00;80;135/85;Pérdida temporal de memoria reciente;Evaluacion cognitiva normal, estres agudo detectado
+44;3637383940;DOC044;24/02/2026;11:00;2;65.50;76;125/80;Hormigueo constante en piernas y brazos;Neuropatia periferica leve, solicito examen de Vitamina B12
+45;3738394041;DOC045;25/02/2026;08:00;2;90.00;85;140/90;Problemas para conciliar el sueno profundo;Trastorno del sueno, higiene del sueno y Melatonina
+46;3839404142;DOC046;26/02/2026;09:00;2;58.50;72;118/76;Mareos intensos al girar la cabeza;Vertigo posicional paroxistico, maniobra de Epley realizada
+47;3940414243;DOC047;27/02/2026;10:00;2;78.50;78;130/80;Dolor facial punzante lado derecho;Neuralgia del trigemino, receto Carbamazepina
+48;4041424344;DOC048;28/02/2026;11:00;2;62.00;74;120/80;Episodio de desmayo sin razon aparente;Sincope vasovagal, derivacion a cardiologia para descartar
+49;4142434445;DOC049;01/03/2026;08:00;2;82.00;80;135/85;Dificultad para hablar despues de despertar;Accidente isquemico transitorio sospechado, a emergencias
+50;4243444546;DOC050;02/03/2026;09:00;2;55.00;68;110/70;Dolor de cabeza por estres en el cuello;Cefalea tensional severa, relajantes musculares
+51;4344454647;DOC051;03/03/2026;10:00;2;75.00;75;120/80;Sarpullido rojo y picazon en los brazos;Dermatitis de contacto, receto crema con Hidrocortisona
+52;4445464748;DOC052;04/03/2026;11:00;2;61.50;72;118/78;Aparicion de muchos granos en el rostro;Acne quistico, inicio tratamiento con Isotretinoina
+53;4546474849;DOC053;05/03/2026;08:00;2;84.00;80;130/85;Lunares que cambiaron de color y tamano;Nevo atipico, programo biopsia preventiva
+54;4647484950;DOC054;06/03/2026;09:00;2;59.00;70;115/75;Caida excesiva de cabello en las mananas;Alopecia androgénica, champu especial y vitaminas
+55;4748495051;DOC055;07/03/2026;10:00;2;92.00;85;135/90;Hongos en las unas de los pies;Onicomicosis, receto Terbinafina oral por 3 meses
+56;4849505152;DOC056;08/03/2026;11:00;2;63.00;74;120/80;Caspa severa y descamacion en el cuero cabelludo;Dermatitis seborreica, Ketoconazol al 2%
+57;4950515253;DOC057;09/03/2026;08:00;2;77.50;78;125/80;Manchas blancas en la espalda por el sol;Pitiriasis versicolor, crema antimicotica
+58;5051525354;DOC058;10/03/2026;09:00;2;56.50;68;110/70;Piel extremadamente seca y agrietada;Xerosis severa, uso obligatorio de cremas emolientes
+59;5152535455;DOC059;11/03/2026;10:00;2;88.00;82;130/85;Verrugas en las manos y dedos;Verrugas virales, aplicacion de crioterapia con nitrogeno liquido
+60;5253545556;DOC060;12/03/2026;11:00;2;64.50;76;122/80;Enrojecimiento facial constante con calor;Rosacea papulopustular, gel de Metronidazol
+61;5354555657;DOC061;13/03/2026;08:00;2;72.00;75;120/80;Vision borrosa al leer de cerca y fatiga ocular;Presbicia inicial, receto lentes de lectura +1.50
+62;5455565758;DOC062;14/03/2026;09:00;2;60.50;72;118/76;Ojos muy rojos, ardor y lagrimeo constante;Conjuntivitis bacteriana, gotas oftalmicas con antibiotico
+63;5556575859;DOC063;15/03/2026;10:00;2;85.50;80;130/85;Sensacion de arena en los ojos al despertar;Sindrome de ojo seco, lagrimas artificiales cada 4 horas
+64;5657585960;DOC064;16/03/2026;11:00;2;58.00;68;110/70;Chequeo anual por miopia y astigmatismo;Aumento leve de miopia, nueva receta para gafas enviada
+65;5758596061;DOC065;17/03/2026;08:00;2;90.00;85;140/90;Presion alta en los ojos detectada en optica;Glaucoma en etapa temprana, gotas para disminuir la presion intraocular
+66;5859606162;DOC066;18/03/2026;09:00;2;65.00;74;120/80;Bolita dolorosa en el parpado inferior;Orzuelo inflamado, compresas de agua caliente y unguento
+67;5960616263;DOC067;19/03/2026;10:00;2;78.00;78;125/80;Aparicion de moscas volantes en la vision;Miodesopsias benignas, sin dano en la retina, solo observacion
+68;6061626364;DOC068;20/03/2026;11:00;2;55.50;70;115/75;Picazon extrema en los ojos durante el dia;Alergia ocular estacional, receto colirio antihistaminico
+69;6162636465;DOC069;21/03/2026;08:00;2;88.00;82;135/85;Dificultad para ver los colores correctamente;Test de Ishihara realizado, leve daltonismo confirmado
+70;6263646566;DOC070;22/03/2026;09:00;2;62.50;75;120/80;Dolor de cabeza tras usar la computadora todo el dia;Astenopia (fatiga visual), recomiendo descansos regla 20-20-20 y lentes anti reflejo
+71;6364656667;DOC071;23/03/2026;10:00;2;74.50;85;125/80;Ataques de panico constantes y falta de aire sin razon;Trastorno de ansiedad generalizada, inicio Sertralina y terapia
+72;6465666768;DOC072;24/03/2026;11:00;2;61.00;75;115/75;Tristeza profunda, falta de energia y no quiere salir de cama;Episodio depresivo mayor, receto Fluoxetina 50mg
+73;6566676869;DOC073;25/03/2026;08:00;2;86.00;80;130/85;Dificultad para dormir por mas de 3 dias seguidos;Insomnio agudo por estres, receto Clonazepam dosis baja temporal
+74;6667686970;DOC074;26/03/2026;09:00;2;57.50;72;118/78;Cambios de humor muy bruscos de la alegria al llanto;Posible ciclotimia, derivo a psicoterapia para confirmar diagnostico
+75;6768697071;DOC075;27/03/2026;10:00;2;93.00;90;140/90;Miedo irracional a estar en lugares llenos de gente;Agorafobia leve, tecnica de exposicion gradual recomendada
+76;6869707172;DOC076;28/03/2026;11:00;2;66.50;76;120/80;Pensamientos repetitivos sobre limpieza y orden excesivo;TOC (Trastorno Obsesivo Compulsivo), inicio terapia conductual
+77;6970717273;DOC077;29/03/2026;08:00;2;79.50;78;128/82;Nerviosismo extremo antes de examenes de universidad;Ansiedad de desempeno, ejercicios de respiracion y relajacion
+78;7071727374;DOC078;30/03/2026;09:00;2;54.00;68;110/70;Falta de apetito y preocupacion por el peso constante;Riesgo de trastorno alimenticio, derivo urgente a nutricion y psicologia
+79;7172737475;DOC079;31/03/2026;10:00;2;89.00;84;135/85;Problemas de atencion y concentracion en el trabajo;TDAH en adultos sospechado, solicito pruebas neuropsicologicas
+80;7273747576;DOC080;01/04/2026;11:00;2;63.00;74;122/80;Irritabilidad y arranques de ira repentinos;Desregulacion emocional por carga laboral, recomiendo vacaciones
+81;7374757677;DOC081;02/04/2026;08:00;2;71.50;75;120/80;Chequeo ginecologico anual y papanicolaou de rutina;Resultados preliminares normales, envio muestras a laboratorio
+82;7475767778;DOC082;03/04/2026;09:00;2;59.50;72;118/76;Colicos menstruales extremadamente fuertes e incapacitantes;Dismenorrea severa, receto anticonceptivos orales para regular
+83;7576777879;DOC083;04/04/2026;10:00;2;83.00;80;125/82;Atraso menstrual de 3 semanas, test de farmacia positivo;Embarazo confirmado de 6 semanas, receto Acido Folico
+84;7677787980;DOC084;05/04/2026;11:00;2;64.00;74;120/80;Comezon y flujo inusual;Infeccion vaginal por candidiasis, crema y ovulos clotrimazol
+85;7778798081;DOC085;06/04/2026;08:00;2;90.50;85;135/88;Sofia sofocos y sudores nocturnos intensos;Sintomas de perimenopausia, inicio terapia de reemplazo hormonal suave
+86;7879808182;DOC086;07/04/2026;09:00;2;56.00;68;110/70;Deseo de iniciar metodo anticonceptivo a largo plazo;Colocacion de DIU Mirena exitosa, chequeo en un mes
+87;7980818283;DOC087;08/04/2026;10:00;2;77.00;78;128/80;Dolor en los senos y deteccion de un pequeno bulto;Quiste mamario benigno por ecografia, control en 6 meses
+88;8081828384;DOC088;09/04/2026;11:00;2;60.50;70;115/75;Irregularidad en el ciclo menstrual de mas de 2 meses;Sindrome de ovario poliquistico (SOP) detectado en eco, metformina recetada
+89;8182838485;DOC089;10/04/2026;08:00;2;86.50;82;130/85;Seguimiento de embarazo de 24 semanas;Feto con buen desarrollo, latidos normales, recomendar vitaminas
+90;8283848586;DOC090;11/04/2026;09:00;2;62.00;75;120/80;Sangrado inusual fuera del periodo menstrual;Polipo endometrial encontrado, se programa procedimiento ambulatorio
+91;8384858687;DOC091;12/04/2026;10:00;2;76.50;78;125/80;Dolor agudo en la zona lumbar baja al orinar;Infeccion del tracto urinario severa, receto Levofloxacino
+92;8485868788;DOC092;13/04/2026;11:00;2;65.00;72;118/76;Dificultad para empezar a orinar y flujo debil;Hiperplasia prostatica benigna (HPB), receto Tamsulosina
+93;8586878889;DOC093;14/04/2026;08:00;2;89.00;84;135/88;Dolor insoportable en el costado que irradia a la ingle;Calculo renal confirmado por eco, analgesicos y mucha hidratacion
+94;8687888990;DOC094;15/04/2026;09:00;2;58.50;70;110/70;Revision rutinaria de prostata anual;Examen digital normal, antígeno prostático especifico (PSA) en sangre solicitado
+95;8788899001;DOC095;16/04/2026;10:00;2;94.00;88;140/90;Sangre visible en la orina sin dolor aparente;Hematuria macroscopica, derivo a citoscopia urgente para descartar patologias
+96;8889900112;DOC096;17/04/2026;11:00;2;67.00;76;120/80;Incontinencia urinaria al toser o reirse;Incontinencia de esfuerzo, receto ejercicios de Kegel y derivacion a fisio pelvica
+97;8990011223;DOC097;18/04/2026;08:00;2;81.50;80;130/85;Dolor en los testiculos constante e inflamacion;Epididimitis, receto antibioticos y antiinflamatorios, reposo con suspensorio
+98;9001122334;DOC098;19/04/2026;09:00;2;55.00;68;115/75;Molestias constantes y necesidad urgente de orinar en la noche;Vejiga hiperactiva, limito ingesta de liquidos nocturnos y receto solifenacina
+99;9112233445;DOC099;20/04/2026;10:00;2;87.00;82;135/85;Revision postoperatoria de cirugia de calculos renales;Herida sanando correctamente, retiro de cateter doble J exitoso sin dolor
+100;9223344556;DOC100;21/04/2026;11:00;2;63.50;74;122/80;Sensacion de vaciado incompleto de la vejiga al ir al bano;Estenosis uretral en observacion, flujometria programada para la siguiente cita
+101;9334455667;DOC001;22/04/2026;08:00;2;73.00;78;125/80;Chequeo post-infarto a los 6 meses;Evolucion favorable, el musculo cardiaco recupera fuerza, seguir con la dieta y meditacion
+102;9445566778;DOC002;23/04/2026;09:00;2;66.50;72;118/75;Dolor punzante en el pecho al hacer esfuerzo fisico;Angina de pecho estable, ajusto dosis de vasodilatadores y recomiendo evitar esfuerzos extremos
+103;9556677889;DOC003;24/04/2026;10:00;2;82.00;85;135/88;Lectura de resultados de ecocardiograma y holter de 24h;Se confirma fibrilacion auricular leve, inicio tratamiento con anticoagulantes preventivos
+104;9667788990;DOC004;25/04/2026;11:00;2;57.00;70;110/70;Fatiga extrema y tobillos hinchados al final del dia;Insuficiencia cardiaca congestiva incipiente, receto diureticos (Furosemida) y dieta baja en sal
+105;9778899001;DOC005;26/04/2026;08:00;2;91.50;88;140/92;Consulta por antecedentes familiares de muerte subita;Riesgo cardiovascular moderado por obesidad, derivado urgente a nutricion y prueba de esfuerzo
+106;9889900112;DOC006;27/04/2026;09:00;2;61.00;75;120/80;Sensacion de saltos en el corazon al tomar mucho cafe;Extrasistoles supraventriculares benignas, ordeno reduccion total de cafeina y estimulantes
+107;9990011223;DOC007;28/04/2026;10:00;2;78.50;80;130/85;Zumbido de oidos y dolor de cabeza en las madrugadas;Crisis hipertensiva controlada en consultorio, reajusto la medicacion actual de Amlodipino
+108;1001122334;DOC008;29/04/2026;11:00;2;86.00;82;135/85;Reemplazo de medicacion porque el Enalapril le da tos seca;Efecto adverso clasico confirmado, cambio la receta a un ARA II (Losartan 50mg)
+109;1012233445;DOC009;30/04/2026;08:00;2;69.50;76;125/80;Falta de aire intensa al acostarse completamente plano;Ortopnea clara, aumento dosis de diuretico y sugiero dormir con dos almohadas provisionalmente
+110;1023344556;DOC010;01/05/2026;09:00;2;54.50;68;115/75;Chequeo pre-operatorio para cirugia de vesicula proxima;Electrocardiograma perfecto, riesgo quirurgico bajo (Riesgo I), firmo autorizacion para el cirujano
+111;1034455667;DOC011;02/05/2026;10:00;2;14.50;95;90/60;Bebe con mucho llanto, se toca constantemente la oreja derecha;Otitis media aguda con supuracion, receto Amoxicilina con Acido Clavulanico por 7 dias
+112;1045566778;DOC012;03/05/2026;11:00;2;21.00;88;100/70;Control de vacunas, nino de 5 anos para refuerzos escolares;Nino sano en percentil 75, aplique refuerzo de DPT, Polio y SRP sin complicaciones inmediatas
+113;1056677889;DOC013;04/05/2026;08:00;2;11.00;100;85/55;Brote de manchas rojas que pican mucho en todo el cuerpo, fiebre;Varicela confirmada, receto locion de calamina, Paracetamol y aislamiento de la escuela por 10 dias
+114;1067788990;DOC014;05/05/2026;09:00;2;26.50;85;110/75;Problemas para respirar por la nariz, ronca mucho al dormir;Hipertrofia de adenoides sospechada, receto spray nasal de corticoides y derivo a Otorrinolaringologia
+115;1078899001;DOC015;06/05/2026;10:00;2;16.50;92;95/65;Nino no quiere comer desde hace dos dias y vomito una vez;Faringoamigdalitis purulenta (placas en la garganta), receto antibiotico en suspension y dieta blanda
+116;1089900112;DOC016;07/05/2026;11:00;2;8.50;110;80/50;Bebe de 8 meses con deposiciones liquidas mas de 6 veces al dia;Gastroenteritis aguda, leve deshidratacion, envio suero oral a libre demanda y probioticos infantiles
+117;1090011223;DOC017;08/05/2026;08:00;2;32.00;80;115/75;Golpe fuerte en la cabeza jugando en el parque, sin perdida de consciencia;Examen neurologico pediatrico normal, receto Paracetamol y observacion de pupilas por 24h
+118;1101122334;DOC018;09/05/2026;09:00;2;19.00;90;105/70;Tos seca persistente que empeora por las noches, como un ladrido;Laringitis (Crup viral), recomiendo vaporizaciones en bano cerrado y receto antiinflamatorio oral
+119;1112233445;DOC019;10/05/2026;10:00;2;13.00;98;90/60;Chequeo de los 2 anos, madre preocupada porque aun no dice frases;Retraso leve del lenguaje expresivo, el resto del desarrollo es normal, aconsejo estimulacion y lectura
+120;1123344556;DOC020;11/05/2026;11:00;2;28.50;82;112/75;Dolor abdominal alrededor del ombligo, sin fiebre ni vomitos;Parasitosis intestinal confirmada en examen previo, receto Albendazol para el niño y la familia
+121;1134455667;DOC021;12/05/2026;08:00;2;75.00;76;120/80;Fiebre de 38.5, escalofrios y dolor de cuerpo intenso tipo trancazo;Influenza estacional, paciente negativo a COVID, receto reposo absoluto, hidratacion y Paracetamol 1g
+122;1145566778;DOC022;13/05/2026;09:00;2;63.00;72;118/76;Dolor fuerte en la boca del estomago que quema despues de comer;Gastritis aguda por consumo excesivo de aines y picante, receto Esomeprazol y dieta estricta
+123;1156677889;DOC023;14/05/2026;10:00;2;81.50;82;130/85;Revision de examenes de sangre de laboratorio anuales;Colesterol LDL elevado (180 mg/dL), el resto normal, inicio tratamiento dietetico y cito en 3 meses
+124;1167788990;DOC024;01/01/2026;11:00;2;59.50;70;115/75;Picor constante en la garganta y estornudos por las mananas;Rinitis alergica cronica exacerbada por polvo, receto Cetirizina y uso de mascarilla al limpiar
+125;1178899001;DOC025;02/01/2026;08:00;2;90.00;88;140/90;Dolor de cabeza tipo tension en la nuca y hombros duros;Contractura muscular cervical severa por estres laboral, receto Relajante muscular y AINES por 5 dias
+126;1189900112;DOC026;03/01/2026;09:00;2;67.50;74;120/80;Ardor al orinar y necesidad de ir al bano a cada rato con poca orina;Cistitis no complicada, receto Fosfomicina monodosis y abundantes liquidos, especialmente jugo de arandano
+127;1190011223;DOC027;04/01/2026;10:00;2;79.00;78;128/82;Cansancio extremo que no mejora con el sueno, caida de cabello;Sospecha de Hipotiroidismo, se enviaron ordenes de laboratorio para medir TSH y T4 Libre urgente
+128;1201122334;DOC028;05/01/2026;11:00;2;56.00;68;110/70;Mareos al levantarse rapido y zumbido leve en oidos (tinnitus);Hipotension ortostatica y anemia descartada, recomiendo aumentar levemente consumo de sal y liquidos
+129;1212233445;DOC029;06/01/2026;08:00;2;87.50;84;135/88;Bolita dolorosa en la axila derecha que crecio en los ultimos dias;Absceso por vello encarnado (foliculitis infectada), receto antibiotico oral y compresas de agua caliente
+130;1223344556;DOC030;07/01/2026;09:00;2;61.50;75;120/80;Certificado medico para entrar a trabajar, chequeo general fisico;Paciente en excelentes condiciones de salud, sin patologias aparentes, se emite el certificado sin novedad
+131;1234455667;DOC031;08/01/2026;10:00;2;77.00;78;125/80;Torcedura de tobillo al bajar gradas, mucha inflamacion y dolor;Esguince de tobillo grado II, se descarta fractura con RX, inmovilizacion con ferula y analgesicos fuertes
+132;1245566778;DOC032;09/01/2026;11:00;2;64.00;72;118/76;Dolor en la muneca derecha por trabajar en la computadora todo el dia;Sindrome del tunel carpiano leve, receto ferula nocturna, ergonomia en el escritorio y vitaminas B
+133;1256677889;DOC033;10/01/2026;08:00;2;83.50;80;130/85;Dolor en la rodilla al flexionarla, siente que raspa algo por dentro;Condromalacia patelar, envio a fisioterapia (10 sesiones) y suplementos de colageno y condroitina
+134;1267788990;DOC034;11/01/2026;09:00;2;58.50;70;115/75;Dolor punzante en la espalda baja despues de levantar un mueble pesado;Lumbalgia mecanica aguda, aplique inyeccion de corticoides con complejo B y reposo relativo 3 dias
+135;1278899001;DOC035;12/01/2026;10:00;2;93.00;85;140/90;Dolor en el talon que es peor en los primeros pasos de la manana;Fascitis plantar severa, receto ejercicios de estiramiento del tendon de Aquiles y taloneras de gel
+136;1289900112;DOC036;13/01/2026;11:00;2;66.00;74;120/80;Dolor en el hombro al levantar el brazo por encima de la cabeza;Tendinitis del supraespinoso (manguito rotador), infiltracion local de corticoides realizada en consultorio
+137;1290011223;DOC037;14/01/2026;08:00;2;79.50;78;128/82;Lectura de resonancia magnetica de la rodilla izquierda despues de partido;Rotura parcial de ligamento cruzado anterior, por ahora manejo conservador sin cirugia, solo rehabilitacion
+138;1301122334;DOC038;15/01/2026;09:00;2;55.00;68;110/70;Dolor en el cuello que se irradia hacia el brazo izquierdo con hormigueo;Cervicobraquialgia sospecha de hernia discal cervical, ordene resonancia y receto Pregabalina provisional
+139;1312233445;DOC039;16/01/2026;10:00;2;88.00;82;135/85;Dolor e inflamacion en el dedo gordo del pie, paciente come mucha carne;Ataque agudo de Gota (acido urico alto), receto Colchicina y dieta estricta sin purinas temporalmente
+140;1323344556;DOC040;17/01/2026;11:00;2;62.50;75;122/80;Chequeo post-retiro de yeso en el brazo izquierdo por fractura de radio;Consolidacion osea perfecta en radiografia de control, derivo a rehabilitacion fisica para recuperar fuerza
+141;1334455667;DOC041;18/01/2026;08:00;2;74.50;76;120/80;Fuertes migranas con aura visual (ve luces zigzagueantes antes del dolor);Migrana clasica con aura, receto Sumatriptan 50mg al inicio del dolor y llevar un diario de detonantes
+142;1345566778;DOC042;19/01/2026;09:00;2;61.00;72;118/76;Temblores finos en ambas manos al intentar agarrar un vaso o escribir;Temblor esencial diagnosticado, descarto Parkinson inicial, prescribo Propranolol dosis muy baja
+143;1356677889;DOC043;20/01/2026;10:00;2;86.00;80;130/85;Perdida temporal de fuerza en el brazo derecho y dificultad para hablar ayer;AIT (Accidente Isquemico Transitorio), se inicio terapia antiagregante y solicite Doppler carotideo urgente
+144;1367788990;DOC044;21/01/2026;11:00;2;59.00;70;115/75;Hormigueo y ardor en las plantas de los pies, paciente es diabetica;Neuropatia diabetica periferica, optimice el control de glucosa con su endocrinologo y recete Gabapentina
+145;1378899001;DOC045;22/01/2026;08:00;2;92.50;88;140/90;Problemas cronicos para conciliar el sueno, despierta muy cansado siempre;Trastorno del ritmo circadiano, se descarta apnea obstructiva leve, receto Melatonina y pautas de higiene del sueno
+146;1389900112;DOC046;23/01/2026;09:00;2;65.50;74;120/80;Mareo intenso y sensacion de que el cuarto da vueltas al girar en la cama;Vertigo Posicional Paroxistico Benigno (VPPB), realice la Maniobra de Epley con exito, receto Betahistina
+147;1390011223;DOC047;24/01/2026;10:00;2;80.00;78;128/82;Dolor facial punzante como descargas electricas en el lado derecho de la cara;Neuralgia del Trigemino, inicio tratamiento con Carbamazepina 200mg y solicite resonancia cerebral
+148;1401122334;DOC048;25/01/2026;11:00;2;57.50;68;110/70;Episodio de desmayo (sincope) mientras estaba de pie mucho tiempo bajo el sol;Sincope vasovagal tipico, electrocardiograma normal, recomiendo evitar detonantes y mantenerse bien hidratado
+149;1412233445;DOC049;26/01/2026;08:00;2;89.50;84;135/85;Debilidad repentina en una mitad del cuerpo que desaparecio a las 2 horas;Sospecha de TIA, derivo de inmediato a realizacion de TAC cerebral para descartar microinfartos
+150;1423344556;DOC050;27/01/2026;09:00;2;63.00;75;122/80;Dolor de cabeza tensional diario, siente el cuello rigido como una tabla;Cefalea tensional cronica agravada por posturas de teletrabajo, receto relajantes musculares y cambios ergonomicos
+151;1434455667;DOC051;15/06/2026;10:00;1;0.00;0;N/A;N/A;Pendiente
+152;1445566778;DOC052;16/06/2026;11:00;1;0.00;0;N/A;N/A;Pendiente
+153;1456677889;DOC053;17/06/2026;08:00;1;0.00;0;N/A;N/A;Pendiente
+154;1467788990;DOC054;18/06/2026;09:00;1;0.00;0;N/A;N/A;Pendiente
+155;1478899001;DOC055;19/06/2026;10:00;1;0.00;0;N/A;N/A;Pendiente
+156;1489900112;DOC056;20/06/2026;11:00;1;0.00;0;N/A;N/A;Pendiente
+157;1490011223;DOC057;21/06/2026;08:00;1;0.00;0;N/A;N/A;Pendiente
+158;1501122334;DOC058;22/06/2026;09:00;1;0.00;0;N/A;N/A;Pendiente
+159;1512233445;DOC059;23/06/2026;10:00;1;0.00;0;N/A;N/A;Pendiente
+160;1523344556;DOC060;24/06/2026;11:00;1;0.00;0;N/A;N/A;Pendiente
+161;1534455667;DOC061;25/06/2026;08:00;1;0.00;0;N/A;N/A;Pendiente
+162;1545566778;DOC062;26/06/2026;09:00;1;0.00;0;N/A;N/A;Pendiente
+163;1556677889;DOC063;27/06/2026;10:00;1;0.00;0;N/A;N/A;Pendiente
+164;1567788990;DOC064;28/06/2026;11:00;1;0.00;0;N/A;N/A;Pendiente
+165;1578899001;DOC065;29/06/2026;08:00;1;0.00;0;N/A;N/A;Pendiente
+166;1589900112;DOC066;30/06/2026;09:00;1;0.00;0;N/A;N/A;Pendiente
+167;1590011223;DOC067;01/07/2026;10:00;1;0.00;0;N/A;N/A;Pendiente
+168;1601122334;DOC068;02/07/2026;11:00;1;0.00;0;N/A;N/A;Pendiente
+169;1612233445;DOC069;03/07/2026;08:00;1;0.00;0;N/A;N/A;Pendiente
+170;1623344556;DOC070;04/07/2026;09:00;1;0.00;0;N/A;N/A;Pendiente
+171;1634455667;DOC071;05/07/2026;10:00;1;0.00;0;N/A;N/A;Pendiente
+172;1645566778;DOC072;06/07/2026;11:00;1;0.00;0;N/A;N/A;Pendiente
+173;1656677889;DOC073;07/07/2026;08:00;1;0.00;0;N/A;N/A;Pendiente
+174;1667788990;DOC074;08/07/2026;09:00;1;0.00;0;N/A;N/A;Pendiente
+175;1678899001;DOC075;09/07/2026;10:00;1;0.00;0;N/A;N/A;Pendiente
+176;1689900112;DOC076;10/07/2026;11:00;1;0.00;0;N/A;N/A;Pendiente
+177;1690011223;DOC077;11/07/2026;08:00;1;0.00;0;N/A;N/A;Pendiente
+178;1701122334;DOC078;12/07/2026;09:00;1;0.00;0;N/A;N/A;Pendiente
+179;1712233445;DOC079;13/07/2026;10:00;1;0.00;0;N/A;N/A;Pendiente
+180;1723344556;DOC080;14/07/2026;11:00;1;0.00;0;N/A;N/A;Pendiente
+181;1734455667;DOC081;15/07/2026;08:00;1;0.00;0;N/A;N/A;Pendiente
+182;1745566778;DOC082;16/07/2026;09:00;1;0.00;0;N/A;N/A;Pendiente
+183;1756677889;DOC083;17/07/2026;10:00;1;0.00;0;N/A;N/A;Pendiente
+184;1767788990;DOC084;18/07/2026;11:00;1;0.00;0;N/A;N/A;Pendiente
+185;1778899001;DOC085;19/07/2026;08:00;1;0.00;0;N/A;N/A;Pendiente
+186;1789900112;DOC086;20/07/2026;09:00;1;0.00;0;N/A;N/A;Pendiente
+187;1790011223;DOC087;21/07/2026;10:00;1;0.00;0;N/A;N/A;Pendiente
+188;1801122334;DOC088;22/07/2026;11:00;1;0.00;0;N/A;N/A;Pendiente
+189;1812233445;DOC089;23/07/2026;08:00;1;0.00;0;N/A;N/A;Pendiente
+190;1823344556;DOC090;24/07/2026;09:00;1;0.00;0;N/A;N/A;Pendiente
+191;1834455667;DOC091;25/07/2026;10:00;1;0.00;0;N/A;N/A;Pendiente
+192;1845566778;DOC092;26/07/2026;11:00;1;0.00;0;N/A;N/A;Pendiente
+193;1856677889;DOC093;27/07/2026;08:00;1;0.00;0;N/A;N/A;Pendiente
+194;1867788990;DOC094;28/07/2026;09:00;1;0.00;0;N/A;N/A;Pendiente
+195;1878899001;DOC095;29/07/2026;10:00;1;0.00;0;N/A;N/A;Pendiente
+196;1889900112;DOC096;30/07/2026;11:00;1;0.00;0;N/A;N/A;Pendiente
+197;1890011223;DOC097;01/08/2026;08:00;1;0.00;0;N/A;N/A;Pendiente
+198;1901122334;DOC098;02/08/2026;09:00;1;0.00;0;N/A;N/A;Pendiente
+199;1912233445;DOC099;03/08/2026;10:00;1;0.00;0;N/A;N/A;Pendiente
+200;1923344556;DOC100;04/08/2026;11:00;1;0.00;0;N/A;N/A;Pendiente
+201;1234567890;DOC001;15/08/2026;08:00;1;0.00;0;N/A;N/A;Pendiente
+202;2345678901;DOC002;16/08/2026;09:00;1;0.00;0;N/A;N/A;Pendiente
+203;3456789012;DOC003;17/08/2026;10:00;1;0.00;0;N/A;N/A;Pendiente
+204;4567890123;DOC004;18/08/2026;11:00;1;0.00;0;N/A;N/A;Pendiente
+205;5678901234;DOC005;19/08/2026;08:00;1;0.00;0;N/A;N/A;Pendiente
+206;6789012345;DOC006;20/08/2026;09:00;1;0.00;0;N/A;N/A;Pendiente
+207;7890123456;DOC007;21/08/2026;10:00;1;0.00;0;N/A;N/A;Pendiente
+208;8901234567;DOC008;22/08/2026;11:00;1;0.00;0;N/A;N/A;Pendiente
+209;9012345678;DOC009;23/08/2026;08:00;1;0.00;0;N/A;N/A;Pendiente
+210;1122334455;DOC010;24/08/2026;09:00;1;0.00;0;N/A;N/A;Pendiente
+211;2233445566;DOC011;25/08/2026;10:00;1;0.00;0;N/A;N/A;Pendiente
+212;3344556677;DOC012;26/08/2026;11:00;1;0.00;0;N/A;N/A;Pendiente
+213;4455667788;DOC013;27/08/2026;08:00;1;0.00;0;N/A;N/A;Pendiente
+214;5566778899;DOC014;28/08/2026;09:00;1;0.00;0;N/A;N/A;Pendiente
+215;6677889900;DOC015;29/08/2026;10:00;1;0.00;0;N/A;N/A;Pendiente
+216;7788990011;DOC016;30/08/2026;11:00;1;0.00;0;N/A;N/A;Pendiente
+217;8899001122;DOC017;01/09/2026;08:00;1;0.00;0;N/A;N/A;Pendiente
+218;9900112233;DOC018;02/09/2026;09:00;1;0.00;0;N/A;N/A;Pendiente
+219;1011121314;DOC019;03/09/2026;10:00;1;0.00;0;N/A;N/A;Pendiente
+220;1213141516;DOC020;04/09/2026;11:00;1;0.00;0;N/A;N/A;Pendiente
+221;1314151617;DOC021;05/09/2026;08:00;1;0.00;0;N/A;N/A;Pendiente
+222;1415161718;DOC022;06/09/2026;09:00;1;0.00;0;N/A;N/A;Pendiente
+223;1516171819;DOC023;07/09/2026;10:00;1;0.00;0;N/A;N/A;Pendiente
+224;1617181920;DOC024;08/09/2026;11:00;1;0.00;0;N/A;N/A;Pendiente
+225;1718192021;DOC025;09/09/2026;08:00;1;0.00;0;N/A;N/A;Pendiente
+226;1819202122;DOC026;10/09/2026;09:00;1;0.00;0;N/A;N/A;Pendiente
+227;1920212223;DOC027;11/09/2026;10:00;1;0.00;0;N/A;N/A;Pendiente
+228;2021222324;DOC028;12/09/2026;11:00;1;0.00;0;N/A;N/A;Pendiente
+229;2122232425;DOC029;13/09/2026;08:00;1;0.00;0;N/A;N/A;Pendiente
+230;2223242526;DOC030;14/09/2026;09:00;1;0.00;0;N/A;N/A;Pendiente
+231;2324252627;DOC031;15/09/2026;10:00;1;0.00;0;N/A;N/A;Pendiente
+232;2425262728;DOC032;16/09/2026;11:00;1;0.00;0;N/A;N/A;Pendiente
+233;2526272829;DOC033;17/09/2026;08:00;1;0.00;0;N/A;N/A;Pendiente
+234;2627282930;DOC034;18/09/2026;09:00;1;0.00;0;N/A;N/A;Pendiente
+235;2728293031;DOC035;19/09/2026;10:00;1;0.00;0;N/A;N/A;Pendiente
+236;2829303132;DOC036;20/09/2026;11:00;1;0.00;0;N/A;N/A;Pendiente
+237;2930313233;DOC037;21/09/2026;08:00;1;0.00;0;N/A;N/A;Pendiente
+238;3031323334;DOC038;22/09/2026;09:00;1;0.00;0;N/A;N/A;Pendiente
+239;3132333435;DOC039;23/09/2026;10:00;1;0.00;0;N/A;N/A;Pendiente
+240;3233343536;DOC040;24/09/2026;11:00;1;0.00;0;N/A;N/A;Pendiente
+241;3334353637;DOC041;25/09/2026;08:00;1;0.00;0;N/A;N/A;Pendiente
+242;3435363738;DOC042;26/09/2026;09:00;1;0.00;0;N/A;N/A;Pendiente
+243;3536373839;DOC043;27/09/2026;10:00;1;0.00;0;N/A;N/A;Pendiente
+244;3637383940;DOC044;28/09/2026;11:00;1;0.00;0;N/A;N/A;Pendiente
+245;3738394041;DOC045;29/09/2026;08:00;1;0.00;0;N/A;N/A;Pendiente
+246;3839404142;DOC046;30/09/2026;09:00;1;0.00;0;N/A;N/A;Pendiente
+247;3940414243;DOC047;01/10/2026;10:00;1;0.00;0;N/A;N/A;Pendiente
+248;4041424344;DOC048;02/10/2026;11:00;1;0.00;0;N/A;N/A;Pendiente
+249;4142434445;DOC049;03/10/2026;08:00;1;0.00;0;N/A;N/A;Pendiente
+250;4243444546;DOC050;04/10/2026;09:00;1;0.00;0;N/A;N/A;Pendiente
+251;4344454647;DOC051;05/01/2026;10:00;0;0.00;0;N/A;N/A;Pendiente
+252;4445464748;DOC052;06/01/2026;11:00;0;0.00;0;N/A;N/A;Pendiente
+253;4546474849;DOC053;07/01/2026;08:00;0;0.00;0;N/A;N/A;Pendiente
+254;4647484950;DOC054;08/01/2026;09:00;0;0.00;0;N/A;N/A;Pendiente
+255;4748495051;DOC055;09/01/2026;10:00;0;0.00;0;N/A;N/A;Pendiente
+256;4849505152;DOC056;10/01/2026;11:00;0;0.00;0;N/A;N/A;Pendiente
+257;4950515253;DOC057;11/01/2026;08:00;0;0.00;0;N/A;N/A;Pendiente
+258;5051525354;DOC058;12/01/2026;09:00;0;0.00;0;N/A;N/A;Pendiente
+259;5152535455;DOC059;13/01/2026;10:00;0;0.00;0;N/A;N/A;Pendiente
+260;5253545556;DOC060;14/01/2026;11:00;0;0.00;0;N/A;N/A;Pendiente
+261;5354555657;DOC061;15/01/2026;08:00;0;0.00;0;N/A;N/A;Pendiente
+262;5455565758;DOC062;16/01/2026;09:00;0;0.00;0;N/A;N/A;Pendiente
+263;5556575859;DOC063;17/01/2026;10:00;0;0.00;0;N/A;N/A;Pendiente
+264;5657585960;DOC064;18/01/2026;11:00;0;0.00;0;N/A;N/A;Pendiente
+265;5758596061;DOC065;19/01/2026;08:00;0;0.00;0;N/A;N/A;Pendiente
+266;5859606162;DOC066;20/01/2026;09:00;0;0.00;0;N/A;N/A;Pendiente
+267;5960616263;DOC067;21/01/2026;10:00;0;0.00;0;N/A;N/A;Pendiente
+268;6061626364;DOC068;22/01/2026;11:00;0;0.00;0;N/A;N/A;Pendiente
+269;6162636465;DOC069;23/01/2026;08:00;0;0.00;0;N/A;N/A;Pendiente
+270;6263646566;DOC070;24/01/2026;09:00;0;0.00;0;N/A;N/A;Pendiente
+271;6364656667;DOC071;25/01/2026;10:00;0;0.00;0;N/A;N/A;Pendiente
+272;6465666768;DOC072;26/01/2026;11:00;0;0.00;0;N/A;N/A;Pendiente
+273;6566676869;DOC073;27/01/2026;08:00;0;0.00;0;N/A;N/A;Pendiente
+274;6667686970;DOC074;28/01/2026;09:00;0;0.00;0;N/A;N/A;Pendiente
+275;6768697071;DOC075;29/01/2026;10:00;0;0.00;0;N/A;N/A;Pendiente
+276;6869707172;DOC076;30/01/2026;11:00;0;0.00;0;N/A;N/A;Pendiente
+277;6970717273;DOC077;01/02/2026;08:00;0;0.00;0;N/A;N/A;Pendiente
+278;7071727374;DOC078;02/02/2026;09:00;0;0.00;0;N/A;N/A;Pendiente
+279;7172737475;DOC079;03/02/2026;10:00;0;0.00;0;N/A;N/A;Pendiente
+280;7273747576;DOC080;04/02/2026;11:00;0;0.00;0;N/A;N/A;Pendiente
+281;7374757677;DOC081;05/02/2026;08:00;0;0.00;0;N/A;N/A;Pendiente
+282;7475767778;DOC082;06/02/2026;09:00;0;0.00;0;N/A;N/A;Pendiente
+283;7576777879;DOC083;07/02/2026;10:00;0;0.00;0;N/A;N/A;Pendiente
+284;7677787980;DOC084;08/02/2026;11:00;0;0.00;0;N/A;N/A;Pendiente
+285;7778798081;DOC085;09/02/2026;08:00;0;0.00;0;N/A;N/A;Pendiente
+286;7879808182;DOC086;10/02/2026;09:00;0;0.00;0;N/A;N/A;Pendiente
+287;7980818283;DOC087;11/02/2026;10:00;0;0.00;0;N/A;N/A;Pendiente
+288;8081828384;DOC088;12/02/2026;11:00;0;0.00;0;N/A;N/A;Pendiente
+289;8182838485;DOC089;13/02/2026;08:00;0;0.00;0;N/A;N/A;Pendiente
+290;8283848586;DOC090;14/02/2026;09:00;0;0.00;0;N/A;N/A;Pendiente
+291;8384858687;DOC091;15/02/2026;10:00;0;0.00;0;N/A;N/A;Pendiente
+292;8485868788;DOC092;16/02/2026;11:00;0;0.00;0;N/A;N/A;Pendiente
+293;8586878889;DOC093;17/02/2026;08:00;0;0.00;0;N/A;N/A;Pendiente
+294;8687888990;DOC094;18/02/2026;09:00;0;0.00;0;N/A;N/A;Pendiente
+295;8788899001;DOC095;19/02/2026;10:00;0;0.00;0;N/A;N/A;Pendiente
+296;8889900112;DOC096;20/02/2026;11:00;0;0.00;0;N/A;N/A;Pendiente
+297;8990011223;DOC097;21/02/2026;08:00;0;0.00;0;N/A;N/A;Pendiente
+298;9001122334;DOC098;22/02/2026;09:00;0;0.00;0;N/A;N/A;Pendiente
+299;9112233445;DOC099;23/02/2026;10:00;0;0.00;0;N/A;N/A;Pendiente
+300;9223344556;DOC100;24/02/2026;11:00;0;0.00;0;N/A;N/A;Pendiente
+301;9334455667;DOC001;25/02/2026;08:00;3;0.00;0;N/A;N/A;Pendiente
+302;9445566778;DOC002;26/02/2026;09:00;3;0.00;0;N/A;N/A;Pendiente
+303;9556677889;DOC003;27/02/2026;10:00;3;0.00;0;N/A;N/A;Pendiente
+304;9667788990;DOC004;28/02/2026;11:00;3;0.00;0;N/A;N/A;Pendiente
+305;9778899001;DOC005;01/03/2026;08:00;3;0.00;0;N/A;N/A;Pendiente
+306;9889900112;DOC006;02/03/2026;09:00;3;0.00;0;N/A;N/A;Pendiente
+307;9990011223;DOC007;03/03/2026;10:00;3;0.00;0;N/A;N/A;Pendiente
+308;1001122334;DOC008;04/03/2026;11:00;3;0.00;0;N/A;N/A;Pendiente
+309;1012233445;DOC009;05/03/2026;08:00;3;0.00;0;N/A;N/A;Pendiente
+310;1023344556;DOC010;06/03/2026;09:00;3;0.00;0;N/A;N/A;Pendiente
+311;1034455667;DOC011;07/03/2026;10:00;3;0.00;0;N/A;N/A;Pendiente
+312;1045566778;DOC012;08/03/2026;11:00;3;0.00;0;N/A;N/A;Pendiente
+313;1056677889;DOC013;09/03/2026;08:00;3;0.00;0;N/A;N/A;Pendiente
+314;1067788990;DOC014;10/03/2026;09:00;3;0.00;0;N/A;N/A;Pendiente
+315;1078899001;DOC015;11/03/2026;10:00;3;0.00;0;N/A;N/A;Pendiente
+316;1089900112;DOC016;12/03/2026;11:00;3;0.00;0;N/A;N/A;Pendiente
+317;1090011223;DOC017;13/03/2026;08:00;3;0.00;0;N/A;N/A;Pendiente
+318;1101122334;DOC018;14/03/2026;09:00;3;0.00;0;N/A;N/A;Pendiente
+319;1112233445;DOC019;15/03/2026;10:00;3;0.00;0;N/A;N/A;Pendiente
+320;1123344556;DOC020;16/03/2026;11:00;3;0.00;0;N/A;N/A;Pendiente
+321;1134455667;DOC021;17/03/2026;08:00;3;0.00;0;N/A;N/A;Pendiente
+322;1145566778;DOC022;18/03/2026;09:00;3;0.00;0;N/A;N/A;Pendiente
+323;1156677889;DOC023;19/03/2026;10:00;3;0.00;0;N/A;N/A;Pendiente
+324;1167788990;DOC024;20/03/2026;11:00;3;0.00;0;N/A;N/A;Pendiente
+325;1178899001;DOC025;21/03/2026;08:00;3;0.00;0;N/A;N/A;Pendiente
+326;1189900112;DOC026;22/03/2026;09:00;3;0.00;0;N/A;N/A;Pendiente
+327;1190011223;DOC027;23/03/2026;10:00;3;0.00;0;N/A;N/A;Pendiente
+328;1201122334;DOC028;24/03/2026;11:00;3;0.00;0;N/A;N/A;Pendiente
+329;1212233445;DOC029;25/03/2026;08:00;3;0.00;0;N/A;N/A;Pendiente
+330;1223344556;DOC030;26/03/2026;09:00;3;0.00;0;N/A;N/A;Pendiente
+331;1234455667;DOC031;27/03/2026;10:00;2;76.00;78;125/80;Control post operatorio de ligamentos;Mejora evidente, empezar ejercicios con peso leve
+332;1245566778;DOC032;28/03/2026;11:00;2;64.00;72;118/76;Dolor en el tobillo izquierdo por mal paso;Esguince leve grado 1, recomiendo reposo por 3 dias
+333;1256677889;DOC033;29/03/2026;08:00;2;83.50;80;130/85;Tendinitis cronica en el codo;Infiltracion realizada con exito, usar codera
+334;1267788990;DOC034;30/03/2026;09:00;2;58.50;70;115/75;Dolor de espalda alta;Contractura por estres postural, aplicar calor
+335;1278899001;DOC035;31/03/2026;10:00;2;93.00;85;140/90;Fascitis plantar aguda;Receto plantillas de descarga y ejercicios en casa
+336;1289900112;DOC036;01/04/2026;11:00;2;66.00;74;120/80;Cervicalgia severa;Derivacion a fisioterapia y Diclofenaco inyectable
+337;1290011223;DOC037;02/04/2026;08:00;2;79.50;78;128/82;Seguimiento de condromalacia;Buen progreso, continuar colageno oral
+338;1301122334;DOC038;03/04/2026;09:00;2;55.00;68;110/70;Dolor irradiado a la pierna derecha;Ciatalgia en remision, suspender Pregabalina
+339;1312233445;DOC039;04/04/2026;10:00;2;88.00;82;135/85;Bursitis en el hombro;Inflamacion reducida, evitar cargas pesadas
+340;1323344556;DOC040;05/04/2026;11:00;2;62.50;75;122/80;Control de fractura de Muneca;Yeso retirado, hueso consolidado perfectamente
+341;1334455667;DOC041;06/04/2026;08:00;2;74.50;76;120/80;Episodio leve de migraña sin aura;Ajuste de dosis en triptanes preventivos
+342;1345566778;DOC042;07/04/2026;09:00;2;61.00;72;118/76;Temblor esencial en evaluacion;Dosis de propranolol resulta adecuada y efectiva
+343;1356677889;DOC043;08/04/2026;10:00;2;86.00;80;130/85;Seguimiento AIT (Accidente Isquemico);Paciente estable sin secuelas motoras
+344;1367788990;DOC044;09/04/2026;11:00;2;59.00;70;115/75;Neuropatia periferica de pies;Mejora sensibilidad tras control de glicemia
+345;1378899001;DOC045;10/04/2026;08:00;2;92.50;88;140/90;Problemas de sueno cronicos;Buena adaptacion a la higiene del sueno
+346;1389900112;DOC046;11/04/2026;09:00;2;65.50;74;120/80;Control de vertigo postural;Sin nuevos episodios, se da el alta
+347;1390011223;DOC047;12/04/2026;10:00;2;80.00;78;128/82;Neuralgia trigeminal;Dolor controlado con Carbamazepina actual
+348;1401122334;DOC048;13/04/2026;11:00;2;57.50;68;110/70;Sincope en observacion;Holter normal, paciente puede regresar al trabajo
+349;1412233445;DOC049;14/04/2026;08:00;2;89.50;84;135/85;Cefalea tensional cronica;Disminucion de crisis con masajes de relajacion
+350;1423344556;DOC050;15/04/2026;09:00;2;63.00;75;122/80;Cansancio cognitivo general;Se indican ejercicios de estimulacion mental
+351;1434455667;DOC051;16/04/2026;10:00;2;75.00;75;120/80;Eczema por contacto con quimicos;Remision de sintomas con crema con esteroides
+352;1445566778;DOC052;17/04/2026;11:00;2;61.50;72;118/78;Acne moderado a severo;Buena respuesta inicial a antibioticos orales
+353;1456677889;DOC053;18/04/2026;08:00;2;84.00;80;130/85;Revision de nevo sospechoso;Biopsia resulto negativa para malignidad
+354;1467788990;DOC054;19/04/2026;09:00;2;59.00;70;115/75;Alopecia focal;Infiltracion de corticoides en placas afectadas
+355;1478899001;DOC055;20/04/2026;10:00;2;92.00;85;135/90;Onicomicosis rebelde;Cambio de tratamiento antimicotico oral
+356;1489900112;DOC056;21/04/2026;11:00;2;63.00;74;120/80;Dermatitis seborreica;Controlada con shampoo de ketoconazol
+357;1490011223;DOC057;22/04/2026;08:00;2;77.50;78;125/80;Rosacea exacerbada por el calor;Aumento de enrojecimiento, indico laser vascular
+358;1501122334;DOC058;23/04/2026;09:00;2;56.50;68;110/70;Xerosis cutanea severa;Hidratacion con Urea 10% funciono bien
+359;1512233445;DOC059;24/04/2026;10:00;2;88.00;82;130/85;Verruga plantar profunda;Segunda sesion de crioterapia completada
+360;1523344556;DOC060;25/04/2026;11:00;2;64.50;76;122/80;Picor generalizado idiopatico;Urticaria leve, continuar antihistaminicos
+361;1534455667;DOC061;26/04/2026;08:00;2;72.00;75;120/80;Chequeo general de agudeza visual;Presbicia estable, no requiere cambio de gafas
+362;1545566778;DOC062;27/04/2026;09:00;2;60.50;72;118/76;Ojo seco severo en oficina;Mejoria con uso frecuente de lagrimas artificiales
+363;1556677889;DOC063;28/04/2026;10:00;2;85.50;80;130/85;Orzuelo cronico en parpado;Drenaje quirurgico minimo realizado hoy
+364;1567788990;DOC064;29/04/2026;11:00;2;58.00;68;110/70;Sospecha de conjuntivitis alergica;Confirmada alergia al polen, receto gotas suaves
+365;1578899001;DOC065;30/04/2026;08:00;2;90.00;85;140/90;Seguimiento presion intraocular;Valores al limite, inicio gotas para glaucoma
